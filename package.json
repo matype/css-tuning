@@ -4,16 +4,24 @@
   "description": "Postprocessing pack for CSS performance tuning",
   "main": "index.js",
   "scripts": {
-    "test": "tape test"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/morishitter/css-tuning/git"
   },
-  "keywords": ["css","tuning","performance","postcss"],
+  "keywords": [
+    "css",
+    "tuning",
+    "performance",
+    "postcss"
+  ],
   "author": "Masaaki Morishita",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "postcss": "^4.1.12"
+  },
   "devDependencies": {
+    "tape": "^4.0.0"
   }
 }
